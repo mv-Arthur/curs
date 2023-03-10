@@ -1,0 +1,63 @@
+.header {
+    padding: 70px 0 70px 0;
+    &__logo {
+        width: 36px;
+        height: 36px;
+    }
+    &__wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__lefthandside {
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__righthandside {
+        width: 247px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__item {
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    &__in-btn {
+        border: 1px solid #6E38F7;
+        border-radius: 4px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #6E38F7;
+        font-weight: 500;
+        font-size: 11px;
+        width:150px ;
+        height:36px ;
+        background-color: #fff;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        line-height: 36px;
+        margin-right: 20px;
+    }
+    &__up-btn {
+        background: #6E38F7;
+        border-radius: 4px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 11px;
+        width:150px ;
+        height:36px ;
+        border:none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        line-height: 36px;
+    }
+}

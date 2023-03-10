@@ -1,0 +1,75 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        color: #363940;
+        margin-bottom: 21px;
+    }
+    &__subheader {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #95A1BB;
+        margin-bottom: 30px;
+    }
+
+    &__line {
+        background: #E1E5EE;
+        margin-bottom: 30px;
+    }
+    &__input {
+        width: 447px;
+        height: 46px;
+        border-radius: 4px;
+        border: 1px solid #CAD1E1;
+        color: #95A1BB;
+        line-height: 22px;
+        padding: 0 0 0 12px;
+        margin-bottom: 20px;
+    }
+    &__button {
+        background: #6E38F7;
+        border-radius: 4px;
+        width: 460px;
+        height: 46px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        margin-bottom: 30px;
+        border:none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        line-height: 46px;
+    }
+    &__message {
+        font-weight: 400;
+        font-size: 14px;
+        color: #363940;
+        text-align: center;
+        width: 460px;
+        margin-bottom: 10px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        color: #6E38F7;
+        text-decoration: none;
+        
+    }
+    &__back {
+        text-decoration: none;
+        color: #6E38F7;
+    }
+}
